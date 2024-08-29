@@ -11,12 +11,12 @@ public class Pawn : ChessPiece
         List<Vector3> pawnMoves = new List<Vector3>();
         
         // Set the start position and end position of the line. The end is + 1 on the Y as pawns can only move one space.
-        Vector3 forwardMoveStart = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
-        Vector3 forwardMoveEnd = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+        Vector3 moveStart = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
+        Vector3 moveEnd = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
         
         // Add the start and end point of the line to the pawnMoves list.
-        pawnMoves.Add(forwardMoveStart);
-        pawnMoves.Add(forwardMoveEnd);
+        pawnMoves.Add(moveStart);
+        pawnMoves.Add(moveEnd);
 
         // Return the list which is used to draw the gizmo lines for possible moves.
         return pawnMoves;
