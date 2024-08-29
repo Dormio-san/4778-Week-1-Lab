@@ -97,3 +97,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a0b4f262edea74b9fa051d4ab0a7ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  piecePosition: {x: 0, y: 0, z: 0}
+  pieceColor: {r: 1, g: 1, b: 1, a: 1}

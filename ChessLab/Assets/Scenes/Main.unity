@@ -1094,6 +1094,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1755236305}
     m_Modifications:
+    - target: {fileID: -137013057362614749, guid: 94d8eddaeb82c464f95350a414c61886, type: 3}
+      propertyPath: pieceColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -137013057362614749, guid: 94d8eddaeb82c464f95350a414c61886, type: 3}
+      propertyPath: pieceColor.g
+      value: 0.9456895
+      objectReference: {fileID: 0}
+    - target: {fileID: -137013057362614749, guid: 94d8eddaeb82c464f95350a414c61886, type: 3}
+      propertyPath: pieceColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 687653649408346707, guid: 94d8eddaeb82c464f95350a414c61886, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 687653649408346707, guid: 94d8eddaeb82c464f95350a414c61886, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9456895
+      objectReference: {fileID: 0}
+    - target: {fileID: 687653649408346707, guid: 94d8eddaeb82c464f95350a414c61886, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 928065311970801153, guid: 94d8eddaeb82c464f95350a414c61886, type: 3}
       propertyPath: m_RootOrder
       value: -1
