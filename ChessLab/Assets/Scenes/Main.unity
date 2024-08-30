@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PawnL (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_TagString
+      value: TopRow
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -201,6 +205,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -294,6 +299,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3380a73e1d73f4ca0ec58b0f1c2b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73faae2d1c9506d4397e555a40e55f64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 2.18
 --- !u!1 &607317800
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PawnL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_TagString
+      value: TopRow
+      objectReference: {fileID: 0}
     - target: {fileID: 9065104711674851699, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
       propertyPath: pieceColor.b
       value: 0.9823393
@@ -491,6 +513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PawnL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_TagString
+      value: TopRow
+      objectReference: {fileID: 0}
     - target: {fileID: 9065104711674851699, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
       propertyPath: pieceColor.b
       value: 0
@@ -569,6 +595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: KnightL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7380188374639719499, guid: 94d8eddaeb82c464f95350a414c61886, type: 3}
+      propertyPath: m_TagString
+      value: BottomRow
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -635,6 +665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PawnL (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_TagString
+      value: TopRow
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -656,6 +690,10 @@ PrefabInstance:
     - target: {fileID: 164587284281449782, guid: 0037c931dbf4fc04387c3702532b32e4, type: 3}
       propertyPath: m_Name
       value: BishopL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 164587284281449782, guid: 0037c931dbf4fc04387c3702532b32e4, type: 3}
+      propertyPath: m_TagString
+      value: BottomRow
       objectReference: {fileID: 0}
     - target: {fileID: 2928580898293286687, guid: 0037c931dbf4fc04387c3702532b32e4, type: 3}
       propertyPath: pieceColor.b
@@ -803,6 +841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PawnL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_TagString
+      value: TopRow
+      objectReference: {fileID: 0}
     - target: {fileID: 9065104711674851699, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
       propertyPath: pieceColor.b
       value: 0.878356
@@ -893,6 +935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PawnL (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_TagString
+      value: TopRow
+      objectReference: {fileID: 0}
     - target: {fileID: 9065104711674851699, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
       propertyPath: pieceColor.b
       value: 1
@@ -938,6 +984,10 @@ PrefabInstance:
     - target: {fileID: 1235940315457562171, guid: 7479334833fe8f74e802d05f59f0351a, type: 3}
       propertyPath: m_Name
       value: RookL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235940315457562171, guid: 7479334833fe8f74e802d05f59f0351a, type: 3}
+      propertyPath: m_TagString
+      value: BottomRow
       objectReference: {fileID: 0}
     - target: {fileID: 3702164808518424814, guid: 7479334833fe8f74e802d05f59f0351a, type: 3}
       propertyPath: m_RootOrder
@@ -1072,6 +1122,10 @@ PrefabInstance:
     - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
       propertyPath: m_Name
       value: PawnL (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_TagString
+      value: TopRow
       objectReference: {fileID: 0}
     - target: {fileID: 9065104711674851699, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
       propertyPath: pieceColor.b
@@ -1214,6 +1268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: KnightL
       objectReference: {fileID: 0}
+    - target: {fileID: 7380188374639719499, guid: 94d8eddaeb82c464f95350a414c61886, type: 3}
+      propertyPath: m_TagString
+      value: BottomRow
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1235,6 +1293,10 @@ PrefabInstance:
     - target: {fileID: 164587284281449782, guid: 0037c931dbf4fc04387c3702532b32e4, type: 3}
       propertyPath: m_Name
       value: BishopL
+      objectReference: {fileID: 0}
+    - target: {fileID: 164587284281449782, guid: 0037c931dbf4fc04387c3702532b32e4, type: 3}
+      propertyPath: m_TagString
+      value: BottomRow
       objectReference: {fileID: 0}
     - target: {fileID: 8410412209015487998, guid: 0037c931dbf4fc04387c3702532b32e4, type: 3}
       propertyPath: m_RootOrder
@@ -1370,6 +1432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: KingL
       objectReference: {fileID: 0}
+    - target: {fileID: 9172067689903807966, guid: 927142bc0080cb740b33a1d29de4725c, type: 3}
+      propertyPath: m_TagString
+      value: BottomRow
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1391,6 +1457,10 @@ PrefabInstance:
     - target: {fileID: 1235940315457562171, guid: 7479334833fe8f74e802d05f59f0351a, type: 3}
       propertyPath: m_Name
       value: RookL
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235940315457562171, guid: 7479334833fe8f74e802d05f59f0351a, type: 3}
+      propertyPath: m_TagString
+      value: BottomRow
       objectReference: {fileID: 0}
     - target: {fileID: 3702164808518424814, guid: 7479334833fe8f74e802d05f59f0351a, type: 3}
       propertyPath: m_RootOrder
@@ -1526,6 +1596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: QueenL
       objectReference: {fileID: 0}
+    - target: {fileID: 6988399890694334876, guid: 54f790f54e39f344caff1e7f4ff3f8e9, type: 3}
+      propertyPath: m_TagString
+      value: BottomRow
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1599,6 +1673,10 @@ PrefabInstance:
     - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
       propertyPath: m_Name
       value: PawnL
+      objectReference: {fileID: 0}
+    - target: {fileID: 8546411783084842257, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_TagString
+      value: TopRow
       objectReference: {fileID: 0}
     - target: {fileID: 9065104711674851699, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
       propertyPath: pieceColor.b
