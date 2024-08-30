@@ -476,6 +476,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8261509814647492967, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261509814647492967, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261509814647492967, guid: 0a5492320a5f9d14a9cbb974ecf5190b, type: 3}
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}

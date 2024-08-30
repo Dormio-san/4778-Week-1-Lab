@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3702164808518424814}
   - component: {fileID: 4616429430408137999}
   - component: {fileID: -6334906622752223739}
+  - component: {fileID: -8832159464752027402}
   m_Layer: 0
   m_Name: RookL
   m_TagString: Untagged
@@ -99,3 +100,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   piecePosition: {x: 0, y: 0, z: 0}
   pieceColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-8832159464752027402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235940315457562171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f94ef952360ffc4f85a9830eb1d767d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 7
